@@ -59,8 +59,10 @@ public class Proj1ApplicationTests {
 		//assertEquals(HttpStatus.FOUND, response.getStatusCode());
 		assertEquals("302", ""+response.getStatusCode());
 
-		// Person personFound = personRepository.findByName(person.getFirst_name());
+		//Person personFound = personRepository.findByName(person.getFirst_name());
 		//Person personFound4 = personRepository.findByName2(person.getFirst_name());
+
+    	//assertEquals(personFound.getFirst_name(), person.getFirst_name());
 
 	}
 
